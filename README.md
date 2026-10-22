@@ -42,15 +42,15 @@ The nonlinearity lies in $F_{contact}(t)$, which only has a value when contact o
 
 - **Normal force**, a function of contact stiffness and damping:
 
-  $$
-  F_{normal} = k_{contact} \times |r - c| + c_{contact} \times \dot{r}
-  $$
+$$
+F_{normal} = k_{contact} \times |r - c| + c_{contact} \times \dot{r}
+$$
 
 - **Tangential force**, a function of the coefficient of friction and the normal force itself:
 
-  $$
-  F_{tangential} = \mu \times F_{normal}
-  $$
+$$
+F_{tangential} = \mu \times F_{normal}
+$$
 
 Physically, the normal force only appears when contact occurs; otherwise its value is zero. The stiffness term is determined by the penetration, i.e. the radial displacement ($r$) minus the radial clearance ($c$). The damping term depends on the radial speed ($\dot{r}$) and might negate the normal force when the velocity pulls the rotor away from the stator. In actual conditions this is unlikely to happen, so an adjustment was made to prevent the force value from becoming negative.
 
@@ -136,27 +136,27 @@ Shows several responses as a function of time.
 - Displacement, velocity, and acceleration are shown only for the defined nodes over the defined time range.
 - Contact force is shown only for the defined time range, for both bushings / contact points.
 
-![Displacement over time](images/res_ovt_displacement.png)
+![Displacement over time](res_ovt_displacement.png)
 
-![Contact force over time](images/res_ovt_contact_force.png)
+![Contact force over time](res_ovt_contact_force.png)
 
 ### Res_Orbit
 
 Shows the radial movement of a defined node over a defined time range.
 
-![Rotor node orbit](images/res_orbit.png)
+![Rotor node orbit](res_orbit.png)
 
 ### Res_FFT
 
 Shows the spectral components of a defined node over the entire time range in the data.
 
-![FFT of node vibration](images/res_fft.png)
+![FFT of node vibration](res_fft.png)
 
 ### Res_OBOVR
 
 Shows the orbit of each node of the rotor over a defined time range. This plot shows how the rotor moves and deflects, especially when contact occurs.
 
-![Overall orbit and deflection shape](images/res_obovr.png)
+![Overall orbit and deflection shape](res_obovr.png)
 
 ### Campbell
 
