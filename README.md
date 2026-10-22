@@ -162,4 +162,4 @@ Shows the orbit of each node of the rotor over a defined time range. This plot s
 
 Shows a Campbell diagram, which is useful for determining the critical speeds of the rotor and the mode shape at each critical speed.
 
-![Campbell diagram](images/campbell_diagram.png)
+![Campbell diagram](campbell_diagram.png)
